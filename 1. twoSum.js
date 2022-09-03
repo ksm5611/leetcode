@@ -24,9 +24,9 @@ var twoSum = function (nums, target) {
     // console.log(maps.set(nums[i], i));
   }
   for (let i = 0; i < nums.length; i++) {
-    console.log("has", maps.has(target - nums[i]));
-    console.log("get", maps.get(target - nums[i]));
-    console.log("push", empty.push(i, maps.get(target - nums[i])));
+    // console.log("has", maps.has(target - nums[i]));
+    // console.log("get", maps.get(target - nums[i]));
+    // console.log("push", empty.push(i, maps.get(target - nums[i])));
     if (maps.has(target - nums[i]) && maps.get(target - nums[i]) !== i) {
       empty.push(i, maps.get(target - nums[i]));
       return empty;

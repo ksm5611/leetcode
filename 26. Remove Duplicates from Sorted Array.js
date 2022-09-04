@@ -12,6 +12,7 @@
 //  * @return {number}
 
 var removeDuplicates = function (nums) {
+  //numCount ->   전 숫자와 다를때 ++
   let numCount = 1;
   let numsLength = nums.length;
   for (let i = 1; i < numsLength; i++) {

@@ -11,7 +11,7 @@
 
 function ArrayChellenge(arr) {
   let sequence = arr[0] > arr[1];
-  console.log("se", sequence);
+  // console.log("se", sequence);
   for (let i = 1; i < arr.length - 1; i++) {
     if (arr[i] > arr[i + 1] && sequence) {
       continue;

@@ -22,9 +22,9 @@ var climbStairs = function (n) {
   let arr = [1, 2];
   for (let i = 2; i <= n; i++) {
     arr[i] = arr[i - 1] + arr[i - 2];
-    console.log("first", arr[i], "second", arr[i - 1], "third", arr[i - 2]);
+    // console.log("first", arr[i], "second", arr[i - 1], "third", arr[i - 2]);
   }
-  console.log("result", arr[n - 1]);
+  // console.log("result", arr[n - 1]);
   return arr[n - 1];
 };
 
